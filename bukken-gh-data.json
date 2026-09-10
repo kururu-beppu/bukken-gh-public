@@ -1,0 +1,369 @@
+{
+ "generated": "2026-09-10",
+ "center": [
+  33.2845594,
+  131.5041603
+ ],
+ "items": [
+  {
+   "id": "gh:別府市内竈|大淵貸家",
+   "name": "大淵貸家",
+   "address": "別府市内竈",
+   "rent_min": 8.0,
+   "rent_max": 8.0,
+   "area_m2": 145.9,
+   "floor": 1,
+   "walk": 37,
+   "kind": null,
+   "dist_m": 5955,
+   "lat": 33.334042,
+   "lon": 131.479645,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市石垣東３丁目|アリュールみなみ",
+   "name": "アリュールみなみ",
+   "address": "別府市石垣東３丁目",
+   "rent_min": 8.0,
+   "rent_max": 8.0,
+   "area_m2": 109.0,
+   "floor": 2,
+   "walk": 22,
+   "kind": "アパート",
+   "dist_m": 1130,
+   "lat": 33.293358,
+   "lon": 131.498077,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市石垣東１丁目|グランシャンテ別府　積水",
+   "name": "グランシャンテ別府　積水",
+   "address": "別府市石垣東１丁目",
+   "rent_min": 17.0,
+   "rent_max": 17.0,
+   "area_m2": 96.31,
+   "floor": 3,
+   "walk": 18,
+   "kind": "アパート",
+   "dist_m": 757,
+   "lat": 33.289448,
+   "lon": 131.498489,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市船小路町|アリュール船小路テラス",
+   "name": "アリュール船小路テラス",
+   "address": "別府市船小路町",
+   "rent_min": 6.5,
+   "rent_max": 6.5,
+   "area_m2": 86.0,
+   "floor": 2,
+   "walk": 19,
+   "kind": "マンション",
+   "dist_m": 1878,
+   "lat": 33.301304,
+   "lon": 131.501556,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市石垣東３丁目|おかたマンション",
+   "name": "おかたマンション",
+   "address": "別府市石垣東３丁目",
+   "rent_min": 8.5,
+   "rent_max": 8.5,
+   "area_m2": 75.41,
+   "floor": 5,
+   "walk": 22,
+   "kind": "マンション",
+   "dist_m": 1130,
+   "lat": 33.293358,
+   "lon": 131.498077,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市鉄輪東|鉄輪東大江貸家",
+   "name": "鉄輪東大江貸家",
+   "address": "別府市鉄輪東",
+   "rent_min": 5.0,
+   "rent_max": 5.0,
+   "area_m2": 73.0,
+   "floor": 1,
+   "walk": 22,
+   "kind": null,
+   "dist_m": 1214,
+   "lat": 33.284721,
+   "lon": 131.491104,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市亀川浜田町|ウィステリアマンションⅠ",
+   "name": "ウィステリアマンションⅠ",
+   "address": "別府市亀川浜田町",
+   "rent_min": 6.5,
+   "rent_max": 6.5,
+   "area_m2": 71.0,
+   "floor": 2,
+   "walk": 7,
+   "kind": "アパート",
+   "dist_m": 5323,
+   "lat": 33.331455,
+   "lon": 131.492661,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市上人西|上人戸建",
+   "name": "上人戸建",
+   "address": "別府市上人西",
+   "rent_min": 6.5,
+   "rent_max": 6.5,
+   "area_m2": 71.0,
+   "floor": null,
+   "walk": 11,
+   "kind": null,
+   "dist_m": 3464,
+   "lat": 33.314098,
+   "lon": 131.49231,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市田の湯町|シャーメゾン青山通り　積水",
+   "name": "シャーメゾン青山通り　積水",
+   "address": "別府市田の湯町",
+   "rent_min": 16.0,
+   "rent_max": 16.0,
+   "area_m2": 70.33,
+   "floor": 2,
+   "walk": 4,
+   "kind": "アパート",
+   "dist_m": 875,
+   "lat": 33.278294,
+   "lon": 131.498474,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市石垣西２丁目|ストーンウォールおかた",
+   "name": "ストーンウォールおかた",
+   "address": "別府市石垣西２丁目",
+   "rent_min": 7.9,
+   "rent_max": 7.9,
+   "area_m2": 70.0,
+   "floor": 2,
+   "walk": 20,
+   "kind": "マンション",
+   "dist_m": 1204,
+   "lat": 33.291325,
+   "lon": 131.494049,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市大字鉄輪|エスポワール　Ⅱ",
+   "name": "エスポワール　Ⅱ",
+   "address": "別府市大字鉄輪",
+   "rent_min": 6.3,
+   "rent_max": 6.3,
+   "area_m2": 67.91,
+   "floor": 2,
+   "walk": 30,
+   "kind": "アパート",
+   "dist_m": 1214,
+   "lat": 33.284721,
+   "lon": 131.491104,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市石垣東２丁目|おかたコーポ",
+   "name": "おかたコーポ",
+   "address": "別府市石垣東２丁目",
+   "rent_min": 6.1,
+   "rent_max": 6.1,
+   "area_m2": 67.45,
+   "floor": 4,
+   "walk": 19,
+   "kind": "アパート",
+   "dist_m": 961,
+   "lat": 33.291637,
+   "lon": 131.49823,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市実相寺|WINDOM実相寺",
+   "name": "WINDOM実相寺",
+   "address": "別府市実相寺",
+   "rent_min": 6.0,
+   "rent_max": 6.0,
+   "area_m2": 67.0,
+   "floor": 2,
+   "walk": 23,
+   "kind": "アパート",
+   "dist_m": 3041,
+   "lat": 33.304871,
+   "lon": 131.482254,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市上野口町|コーポはざま",
+   "name": "コーポはざま",
+   "address": "別府市上野口町",
+   "rent_min": 5.0,
+   "rent_max": 5.0,
+   "area_m2": 66.0,
+   "floor": 1,
+   "walk": 21,
+   "kind": "アパート",
+   "dist_m": 1236,
+   "lat": 33.287029,
+   "lon": 131.491196,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市中須賀東町|加地アパート",
+   "name": "加地アパート",
+   "address": "別府市中須賀東町",
+   "rent_min": 4.7,
+   "rent_max": 4.7,
+   "area_m2": 63.0,
+   "floor": 1,
+   "walk": 12,
+   "kind": "アパート",
+   "dist_m": 2699,
+   "lat": 33.308456,
+   "lon": 131.499039,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市東荘園６丁目|東荘園６丁目戸建貸家",
+   "name": "東荘園６丁目戸建貸家",
+   "address": "別府市東荘園６丁目",
+   "rent_min": 6.5,
+   "rent_max": 6.5,
+   "area_m2": 61.27,
+   "floor": 1,
+   "walk": 36,
+   "kind": null,
+   "dist_m": 2222,
+   "lat": 33.295345,
+   "lon": 131.484039,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市天満町|恒松アパート",
+   "name": "恒松アパート",
+   "address": "別府市天満町",
+   "rent_min": 3.5,
+   "rent_max": 3.5,
+   "area_m2": 61.0,
+   "floor": 2,
+   "walk": 12,
+   "kind": "アパート",
+   "dist_m": 910,
+   "lat": 33.286572,
+   "lon": 131.494675,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市石垣東５丁目|アネックス薫Ⅱ",
+   "name": "アネックス薫Ⅱ",
+   "address": "別府市石垣東５丁目",
+   "rent_min": 5.5,
+   "rent_max": 5.5,
+   "area_m2": 60.0,
+   "floor": 1,
+   "walk": 29,
+   "kind": "アパート",
+   "dist_m": 1447,
+   "lat": 33.296459,
+   "lon": 131.497864,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>別府 ゲストハウス物件さがし</title>
+<meta name="description" content="別府市内のゲストハウス/シェアハウス向け賃貸物件を自動巡回して集約した一覧。">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<style>
+:root{
+  --ink:#1c1f1e; --sub:#5c645f; --line:#dfe3e0; --paper:#fbfaf7; --card:#ffffff;
+  --brand:#1B6D71; --brand-soft:#e7f1f1; --new:#a6402c;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font:15px/1.7 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;}
+.wrap{max-width:960px;margin:0 auto;padding:40px 20px 80px}
+header{margin-bottom:32px}
+.eyebrow{color:var(--brand);letter-spacing:.08em;font-size:12px;font-weight:700;text-transform:uppercase;margin:0 0 8px}
+h1{font-size:28px;margin:0 0 12px;letter-spacing:.01em}
+.lead{color:var(--sub);max-width:640px;margin:0 0 6px}
+.meta{color:var(--sub);font-size:13px;margin:16px 0 0}
+.meta a{color:var(--brand)}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin:28px 0}
+.fig{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.fig .k{font-size:12px;color:var(--sub)}
+.fig .v{font-size:24px;font-weight:700;margin-top:2px}
+.fig .v u{font-size:13px;font-weight:500;text-decoration:none;margin-left:2px;color:var(--sub)}
+#map{height:360px;border-radius:10px;border:1px solid var(--line);margin:8px 0 4px}
+.capt{color:var(--sub);font-size:12.5px;margin:0 0 28px}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 20px}
+.filters label{background:var(--card);border:1px solid var(--line);border-radius:20px;
+  padding:6px 12px;font-size:13px;color:var(--sub);display:inline-flex;align-items:center;gap:6px}
+.filters select{border:none;background:transparent;font:inherit;color:var(--ink)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:680px;font-size:14px}
+th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--sub);font-weight:600;background:var(--brand-soft)}
+tr:last-child td{border-bottom:none}
+a.name{color:var(--brand);text-decoration:none;font-weight:600}
+a.name:hover{text-decoration:underline}
+.addr{color:var(--sub);font-size:12.5px;margin-top:2px}
+.tag{display:inline-block;font-size:11.5px;padding:1px 7px;border-radius:10px;background:var(--brand-soft);color:var(--brand);margin-right:4px}
+.tag.new{background:#fbe9e6;color:var(--new)}
+.foot{margin-top:32px;color:var(--sub);font-size:12.5px;line-height:1.8}
+.foot a{color:var(--brand)}
+@media(max-width:640px){h1{font-size:22px}.wrap{padding:28px 16px 60px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="eyebrow">Beppu · Guesthouse property watch</p>
+  <h1>別府 ゲストハウス物件さがし</h1>
+  <p class="lead">別府市内の賃貸住宅を毎朝自動で巡回し、一戸建て、または60㎡以上（複数部屋を確保できる広さ）の物件だけを集めています。ゲストハウス・シェアハウス開業の候補地探しに使っています。</p>
+  <p class="meta">樞（くるる）による物件モニタリング。ご意見・気になる物件があれば、このページを送ってくれた担当者までご連絡ください。<span id="metaLine"></span></p>
+</header>
+
+<div class="figs" id="figs">
+  <div class="fig"><div class="k">掲載中</div><div class="v" id="figHit">—</div></div>
+  <div class="fig"><div class="k">新着</div><div class="v" id="figNew">—</div></div>
+  <div class="fig"><div class="k">最終更新</div><div class="v" id="figGen" style="font-size:16px">—</div></div>
+</div>
+
+<div id="map"></div>
+<p class="capt">中央の小さな紺の点は北浜（距離の目安）。ピンの番号は下の一覧の行番号と同じです。</p>
+
+<div class="filters">
+  <label>賃料上限 <select id="fRent">
+    <option value="999">指定なし</option><option value="5">5万</option><option value="8">8万</option>
+    <option value="10">10万</option><option value="15">15万</option><option value="20">20万</option>
+  </select></label>
+  <label>面積 <select id="fArea">
+    <option value="0">指定なし</option><option value="60">60㎡〜</option><option value="80">80㎡〜</option>
+    <option value="100">100㎡〜</option><option value="130">130㎡〜</option>
+  </select></label>
+  <label><input type="checkbox" id="fHouse"> 一戸建てのみ</label>
+  <label><input type="checkbox" id="fNew"> 新着のみ</label>
+</div>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>#</th><th>賃料</th><th>面積・種別</th><th>物件</th><th>出典</th></tr></thead>
+<tbody id="grid"></tbody>
+</table>
+</div>
+
+<p class="foot">
+  出典：LIXILファミリーホーム／地図：Leaflet + OpenStreetMap・住所座標：国土地理院。<br>
+  賃料は最安区画。空き状況・詳細条件は各物件ページでご確認ください。個別の詳細URLが無い物件は、出典サイトの検索一覧ページにリンクしています。<br>
+  毎朝自動更新されます。このページは公開ページです（ログイン不要）。
+</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+var ITEMS=[],CENTER=[33.2845594,131.5041603],GENERATED='',map,layer;
+function v(id){return document.getElementById(id).value;}
+function ck(id){return document.getElementById(id).checked;}
+function rentStr(it){return it.rent_min==it.rent_max?it.rent_min:(it.rent_min+'〜'+it.rent_max);}
+function passes(it){
+  var rent=+v('fRent'),area=+v('fArea'),house=ck('fHouse'),onlyNew=ck('fNew');
+  if(it.rent_min>rent)return false;
+  if(area>0&&(it.area_m2==null||it.area_m2<area))return false;
+  if(house&&it.kind!=='一戸建て')return false;
+  if(onlyNew&&!it.is_new)return false;
+  return true;
+}
+function ic(n){
+  return L.divIcon({html:'<div style="background:#1B6D71;color:#fff;width:24px;height:24px;'
+    +'border-radius:50%;display:flex;align-items:center;justify-content:center;'
+    +'font:700 12px sans-serif;border:2px solid #fff">'+n+'</div>',
+    iconSize:[24,24],iconAnchor:[12,12]});
+}
+function render(){
+  var grid=document.getElementById('grid');layer.clearLayers();
+  var pts=[CENTER],n=0,nn=0,rows='';
+  ITEMS.forEach(function(it){
+    if(!passes(it))return; n++; if(it.is_new)nn++;
+    var size=[]; if(it.area_m2!=null)size.push(it.area_m2+'㎡'); if(it.kind)size.push(it.kind);
+    var badge=(it.is_new?'<span class="tag new">NEW</span> ':'')+(it.rent_min<=10?'<span class="tag">10万以下</span>':'');
+    rows+='<tr><td>'+n+'</td>'
+      +'<td><b>'+rentStr(it)+'</b>万円/月<br>'+badge+'</td>'
+      +'<td>'+(size.join(' ／ ')||'—')+'</td>'
+      +'<td><a class="name" href="'+it.url+'" target="_blank" rel="noopener">'+it.name+'</a><div class="addr">'+it.address+'</div></td>'
+      +'<td>'+it.sources.join('・')+'</td></tr>';
+    if(it.lat!=null){var m=L.marker([it.lat,it.lon],{icon:ic(n)}).addTo(layer);
+      m.bindPopup('<b>'+it.name+'</b><br>'+rentStr(it)+'万円/月<br>'+it.address);
+      pts.push([it.lat,it.lon]);}
+  });
+  grid.innerHTML=rows||'<tr><td colspan="4">この条件に合う物件はありません。絞り込みをゆるめてください。</td></tr>';
+  document.getElementById('figHit').textContent=n+' 棟';
+  document.getElementById('figNew').textContent=nn+' 件';
+  document.getElementById('figGen').textContent=GENERATED||'—';
+  if(pts.length>1)map.fitBounds(pts,{padding:[30,30]});
+}
+function init(data){
+  ITEMS=data.items||[]; CENTER=data.center||CENTER; GENERATED=data.generated||'';
+  ITEMS.sort(function(a,b){
+    if(!!b.is_new-!!a.is_new) return (!!b.is_new)-(!!a.is_new);
+    return (b.first_seen||'').localeCompare(a.first_seen||'');
+  });
+  map=L.map('map'); L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {maxZoom:19,attribution:'&copy; OpenStreetMap'}).addTo(map);
+  L.marker(CENTER,{icon:L.divIcon({className:'',html:'<div style="width:10px;height:10px;border-radius:50%;background:#1B6D71;border:2px solid #fff"></div>',iconSize:[14,14],iconAnchor:[7,7]})}).addTo(map);
+  layer=L.layerGroup().addTo(map);
+  document.getElementById('metaLine').textContent=' 収集 '+ITEMS.length+'棟。';
+  document.querySelectorAll('select,#fHouse,#fNew').forEach(function(e){e.addEventListener('change',render);});
+  render();
+}
+function failLoad(e){
+  document.getElementById('grid').innerHTML='<tr><td colspan="4">データを読み込めませんでした。時間をおいて再読み込みしてください。</td></tr>';
+}
+fetch('bukken-gh-data.json?t='+Date.now())
+  .then(function(r){if(!r.ok)throw new Error('load failed');return r.json();})
+  .then(init).catch(failLoad);
+</script>
+</body>
+</html>
