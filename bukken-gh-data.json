@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12",
+ "generated": "2026-09-13",
  "center": [
   33.2845594,
   131.5041603
@@ -9,8 +9,8 @@
    "id": "gh:別府市内竈|大淵貸家",
    "name": "大淵貸家",
    "address": "別府市内竈",
-   "rent_min": 8.0,
-   "rent_max": 8.0,
+   "rent_min": 7.0,
+   "rent_max": 7.0,
    "area_m2": 145.9,
    "floor": 1,
    "walk": 37,
@@ -264,6 +264,26 @@
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-10",
    "is_new": false
+  },
+  {
+   "id": "gh:別府市馬場|ロイヤル・フィオーレＢ",
+   "name": "ロイヤル・フィオーレＢ",
+   "address": "別府市馬場",
+   "rent_min": 6.15,
+   "rent_max": 6.15,
+   "area_m2": 66.77,
+   "floor": 2,
+   "walk": 5,
+   "kind": "アパート",
+   "dist_m": 3487,
+   "lat": 33.305988,
+   "lon": 131.476761,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-13",
+   "is_new": true
   },
   {
    "id": "gh:別府市上野口町|コーポはざま",
