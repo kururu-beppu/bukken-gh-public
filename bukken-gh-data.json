@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14",
+ "generated": "2026-09-15",
  "center": [
   33.2845594,
   131.5041603
@@ -58,26 +58,6 @@
    "dist_m": 757,
    "lat": 33.289448,
    "lon": 131.498489,
-   "sources": [
-    "LIXIL"
-   ],
-   "url": "https://www.family-h.jp/rent/city/44202/",
-   "first_seen": "2026-09-10",
-   "is_new": false
-  },
-  {
-   "id": "gh:別府市船小路町|アリュール船小路テラス",
-   "name": "アリュール船小路テラス",
-   "address": "別府市船小路町",
-   "rent_min": 6.5,
-   "rent_max": 6.5,
-   "area_m2": 86.0,
-   "floor": 2,
-   "walk": 19,
-   "kind": "マンション",
-   "dist_m": 1878,
-   "lat": 33.301304,
-   "lon": 131.501556,
    "sources": [
     "LIXIL"
    ],
@@ -298,6 +278,26 @@
    "dist_m": 1236,
    "lat": 33.287029,
    "lon": 131.491196,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市船小路町|アリュール船小路テラス",
+   "name": "アリュール船小路テラス",
+   "address": "別府市船小路町",
+   "rent_min": 5.8,
+   "rent_max": 5.8,
+   "area_m2": 65.0,
+   "floor": 2,
+   "walk": 19,
+   "kind": "マンション",
+   "dist_m": 1878,
+   "lat": 33.301304,
+   "lon": 131.501556,
    "sources": [
     "LIXIL"
    ],
