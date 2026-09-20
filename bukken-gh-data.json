@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20",
+ "generated": "2026-09-21",
  "center": [
   33.2845594,
   131.5041603
@@ -244,6 +244,26 @@
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-10",
    "is_new": false
+  },
+  {
+   "id": "gh:別府市若草町|La riviereⅡ",
+   "name": "La riviereⅡ",
+   "address": "別府市若草町",
+   "rent_min": 11.8,
+   "rent_max": 11.8,
+   "area_m2": 67.0,
+   "floor": 1,
+   "walk": 17,
+   "kind": "アパート",
+   "dist_m": 666,
+   "lat": 33.290394,
+   "lon": 131.502533,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-21",
+   "is_new": true
   },
   {
    "id": "gh:別府市馬場|ロイヤル・フィオーレＢ",
