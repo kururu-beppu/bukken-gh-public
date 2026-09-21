@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21",
+ "generated": "2026-09-22",
  "center": [
   33.2845594,
   131.5041603
@@ -186,26 +186,6 @@
    "is_new": false
   },
   {
-   "id": "gh:別府市大字鉄輪|エスポワール　Ⅱ",
-   "name": "エスポワール　Ⅱ",
-   "address": "別府市大字鉄輪",
-   "rent_min": 6.3,
-   "rent_max": 6.3,
-   "area_m2": 67.91,
-   "floor": 2,
-   "walk": 30,
-   "kind": "アパート",
-   "dist_m": 1214,
-   "lat": 33.284721,
-   "lon": 131.491104,
-   "sources": [
-    "LIXIL"
-   ],
-   "url": "https://www.family-h.jp/rent/city/44202/",
-   "first_seen": "2026-09-10",
-   "is_new": false
-  },
-  {
    "id": "gh:別府市石垣東２丁目|おかたコーポ",
    "name": "おかたコーポ",
    "address": "別府市石垣東２丁目",
@@ -263,7 +243,7 @@
    ],
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-21",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "gh:別府市馬場|ロイヤル・フィオーレＢ",
