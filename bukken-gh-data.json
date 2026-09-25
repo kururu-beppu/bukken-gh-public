@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25",
+ "generated": "2026-09-26",
  "center": [
   33.2845594,
   131.5041603
@@ -15,9 +15,9 @@
    "floor": 1,
    "walk": 37,
    "kind": null,
-   "dist_m": 5955,
-   "lat": 33.334042,
-   "lon": 131.479645,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -35,9 +35,9 @@
    "floor": 2,
    "walk": 22,
    "kind": "アパート",
-   "dist_m": 1130,
-   "lat": 33.293358,
-   "lon": 131.498077,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -55,9 +55,9 @@
    "floor": 3,
    "walk": 18,
    "kind": "アパート",
-   "dist_m": 757,
-   "lat": 33.289448,
-   "lon": 131.498489,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -75,9 +75,9 @@
    "floor": 5,
    "walk": 22,
    "kind": "マンション",
-   "dist_m": 1130,
-   "lat": 33.293358,
-   "lon": 131.498077,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -95,9 +95,9 @@
    "floor": 1,
    "walk": 22,
    "kind": null,
-   "dist_m": 1214,
-   "lat": 33.284721,
-   "lon": 131.491104,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -115,9 +115,9 @@
    "floor": 2,
    "walk": 7,
    "kind": "アパート",
-   "dist_m": 5323,
-   "lat": 33.331455,
-   "lon": 131.492661,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -135,9 +135,9 @@
    "floor": null,
    "walk": 11,
    "kind": null,
-   "dist_m": 3464,
-   "lat": 33.314098,
-   "lon": 131.49231,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -155,9 +155,9 @@
    "floor": 2,
    "walk": 4,
    "kind": "アパート",
-   "dist_m": 875,
-   "lat": 33.278294,
-   "lon": 131.498474,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -175,9 +175,9 @@
    "floor": 2,
    "walk": 20,
    "kind": "マンション",
-   "dist_m": 1204,
-   "lat": 33.291325,
-   "lon": 131.494049,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -195,9 +195,9 @@
    "floor": 4,
    "walk": 19,
    "kind": "アパート",
-   "dist_m": 961,
-   "lat": 33.291637,
-   "lon": 131.49823,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -215,9 +215,9 @@
    "floor": 2,
    "walk": 23,
    "kind": "アパート",
-   "dist_m": 3041,
-   "lat": 33.304871,
-   "lon": 131.482254,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -235,9 +235,9 @@
    "floor": 1,
    "walk": 17,
    "kind": "アパート",
-   "dist_m": 666,
-   "lat": 33.290394,
-   "lon": 131.502533,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -255,9 +255,9 @@
    "floor": 2,
    "walk": 5,
    "kind": "アパート",
-   "dist_m": 3487,
-   "lat": 33.305988,
-   "lon": 131.476761,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -275,9 +275,9 @@
    "floor": 1,
    "walk": 21,
    "kind": "アパート",
-   "dist_m": 1236,
-   "lat": 33.287029,
-   "lon": 131.491196,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -295,9 +295,9 @@
    "floor": 1,
    "walk": 12,
    "kind": "アパート",
-   "dist_m": 2699,
-   "lat": 33.308456,
-   "lon": 131.499039,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -315,9 +315,9 @@
    "floor": 1,
    "walk": 36,
    "kind": null,
-   "dist_m": 2222,
-   "lat": 33.295345,
-   "lon": 131.484039,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -335,9 +335,9 @@
    "floor": 2,
    "walk": 12,
    "kind": "アパート",
-   "dist_m": 910,
-   "lat": 33.286572,
-   "lon": 131.494675,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
@@ -355,9 +355,9 @@
    "floor": 1,
    "walk": 29,
    "kind": "アパート",
-   "dist_m": 1447,
-   "lat": 33.296459,
-   "lon": 131.497864,
+   "dist_m": null,
+   "lat": null,
+   "lon": null,
    "sources": [
     "LIXIL"
    ],
