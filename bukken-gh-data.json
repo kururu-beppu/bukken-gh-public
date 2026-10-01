@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01",
+ "generated": "2026-10-02",
  "center": [
   33.2845594,
   131.5041603
@@ -244,6 +244,26 @@
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-21",
    "is_new": false
+  },
+  {
+   "id": "gh:別府市馬場|ロイヤル・フィオーレＡ",
+   "name": "ロイヤル・フィオーレＡ",
+   "address": "別府市馬場",
+   "rent_min": 6.15,
+   "rent_max": 6.15,
+   "area_m2": 66.77,
+   "floor": 2,
+   "walk": 2,
+   "kind": "アパート",
+   "dist_m": 3487,
+   "lat": 33.305988,
+   "lon": 131.476761,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-10-02",
+   "is_new": true
   },
   {
    "id": "gh:別府市馬場|ロイヤル・フィオーレＢ",
