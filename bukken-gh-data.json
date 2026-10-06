@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06",
+ "generated": "2026-10-07",
  "center": [
   33.2845594,
   131.5041603
@@ -304,6 +304,26 @@
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-10",
    "is_new": false
+  },
+  {
+   "id": "gh:別府市京町|ヴィラ・フィオーレ",
+   "name": "ヴィラ・フィオーレ",
+   "address": "別府市京町",
+   "rent_min": 6.8,
+   "rent_max": 6.8,
+   "area_m2": 65.0,
+   "floor": 1,
+   "walk": 15,
+   "kind": "マンション",
+   "dist_m": 313,
+   "lat": 33.2873,
+   "lon": 131.503387,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-10-07",
+   "is_new": true
   },
   {
    "id": "gh:別府市中須賀東町|加地アパート",
