@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08",
+ "generated": "2026-10-09",
  "center": [
   33.2845594,
   131.5041603
@@ -64,6 +64,26 @@
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-10",
    "is_new": false
+  },
+  {
+   "id": "gh:別府市船小路町|アリュール船小路テラス",
+   "name": "アリュール船小路テラス",
+   "address": "別府市船小路町",
+   "rent_min": 6.5,
+   "rent_max": 6.5,
+   "area_m2": 86.0,
+   "floor": 2,
+   "walk": 19,
+   "kind": "マンション",
+   "dist_m": 1878,
+   "lat": 33.301304,
+   "lon": 131.501556,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-10-09",
+   "is_new": true
   },
   {
    "id": "gh:別府市石垣東３丁目|おかたマンション",
