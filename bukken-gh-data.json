@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10",
+ "generated": "2026-10-11",
  "center": [
   33.2845594,
   131.5041603
@@ -164,6 +164,26 @@
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-10",
    "is_new": false
+  },
+  {
+   "id": "gh:別府市亀川中央町|Sun Sky亀川　積水",
+   "name": "Sun Sky亀川　積水",
+   "address": "別府市亀川中央町",
+   "rent_min": 8.3,
+   "rent_max": 8.3,
+   "area_m2": 71.0,
+   "floor": 2,
+   "walk": 25,
+   "kind": "アパート",
+   "dist_m": 4685,
+   "lat": 33.32563,
+   "lon": 131.49292,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-10-11",
+   "is_new": true
   },
   {
    "id": "gh:別府市田の湯町|シャーメゾン青山通り　積水",
