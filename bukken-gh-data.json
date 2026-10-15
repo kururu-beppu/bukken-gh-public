@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15",
+ "generated": "2026-10-16",
  "center": [
   33.2845594,
   131.5041603
@@ -252,7 +252,7 @@
    "rent_min": 6.0,
    "rent_max": 6.0,
    "area_m2": 67.0,
-   "floor": 2,
+   "floor": 3,
    "walk": 23,
    "kind": "アパート",
    "dist_m": 3041,
