@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17",
+ "generated": "2026-10-18",
  "center": [
   33.2845594,
   131.5041603
@@ -98,26 +98,6 @@
    "dist_m": 1130,
    "lat": 33.293358,
    "lon": 131.498077,
-   "sources": [
-    "LIXIL"
-   ],
-   "url": "https://www.family-h.jp/rent/city/44202/",
-   "first_seen": "2026-09-10",
-   "is_new": false
-  },
-  {
-   "id": "gh:別府市鉄輪東|鉄輪東大江貸家",
-   "name": "鉄輪東大江貸家",
-   "address": "別府市鉄輪東",
-   "rent_min": 5.0,
-   "rent_max": 5.0,
-   "area_m2": 73.0,
-   "floor": 1,
-   "walk": 22,
-   "kind": null,
-   "dist_m": 1214,
-   "lat": 33.284721,
-   "lon": 131.491104,
    "sources": [
     "LIXIL"
    ],
