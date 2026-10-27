@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27",
+ "generated": "2026-10-28",
  "center": [
   33.2845594,
   131.5041603
@@ -404,6 +404,26 @@
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-10",
    "is_new": false
+  },
+  {
+   "id": "gh:別府市東荘園１丁目|リバーサイドハイツ荘園",
+   "name": "リバーサイドハイツ荘園",
+   "address": "別府市東荘園１丁目",
+   "rent_min": 6.0,
+   "rent_max": 6.0,
+   "area_m2": 60.0,
+   "floor": 4,
+   "walk": 26,
+   "kind": "アパート",
+   "dist_m": 1741,
+   "lat": 33.290596,
+   "lon": 131.486877,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-10-28",
+   "is_new": true
   }
  ]
 }
