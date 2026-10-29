@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29",
+ "generated": "2026-10-30",
  "center": [
   33.2845594,
   131.5041603
@@ -64,6 +64,26 @@
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-10",
    "is_new": false
+  },
+  {
+   "id": "gh:別府市新港町|シャインリゾート別府",
+   "name": "シャインリゾート別府",
+   "address": "別府市新港町",
+   "rent_min": 11.0,
+   "rent_max": 11.0,
+   "area_m2": 85.0,
+   "floor": 4,
+   "walk": 26,
+   "kind": "マンション",
+   "dist_m": 1533,
+   "lat": 33.298203,
+   "lon": 131.501816,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-10-30",
+   "is_new": true
   },
   {
    "id": "gh:別府市石垣東３丁目|おかたマンション",
