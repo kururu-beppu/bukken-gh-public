@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31",
+ "generated": "2026-11-01",
  "center": [
   33.2845594,
   131.5041603
@@ -46,26 +46,6 @@
    "is_new": false
   },
   {
-   "id": "gh:別府市石垣東１丁目|グランシャンテ別府　積水",
-   "name": "グランシャンテ別府　積水",
-   "address": "別府市石垣東１丁目",
-   "rent_min": 17.0,
-   "rent_max": 17.0,
-   "area_m2": 96.31,
-   "floor": 3,
-   "walk": 18,
-   "kind": "アパート",
-   "dist_m": 757,
-   "lat": 33.289448,
-   "lon": 131.498489,
-   "sources": [
-    "LIXIL"
-   ],
-   "url": "https://www.family-h.jp/rent/city/44202/",
-   "first_seen": "2026-09-10",
-   "is_new": false
-  },
-  {
    "id": "gh:別府市新港町|シャインリゾート別府",
    "name": "シャインリゾート別府",
    "address": "別府市新港町",
@@ -98,6 +78,26 @@
    "dist_m": 1130,
    "lat": 33.293358,
    "lon": 131.498077,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "gh:別府市石垣東１丁目|グランシャンテ別府　積水",
+   "name": "グランシャンテ別府　積水",
+   "address": "別府市石垣東１丁目",
+   "rent_min": 13.5,
+   "rent_max": 13.5,
+   "area_m2": 75.15,
+   "floor": 2,
+   "walk": 18,
+   "kind": "アパート",
+   "dist_m": 757,
+   "lat": 33.289448,
+   "lon": 131.498489,
    "sources": [
     "LIXIL"
    ],
