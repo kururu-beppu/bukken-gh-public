@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14",
+ "generated": "2026-11-15",
  "center": [
   33.2845594,
   131.5041603
@@ -78,26 +78,6 @@
    "dist_m": 1130,
    "lat": 33.293358,
    "lon": 131.498077,
-   "sources": [
-    "LIXIL"
-   ],
-   "url": "https://www.family-h.jp/rent/city/44202/",
-   "first_seen": "2026-09-10",
-   "is_new": false
-  },
-  {
-   "id": "gh:別府市石垣東１丁目|グランシャンテ別府　積水",
-   "name": "グランシャンテ別府　積水",
-   "address": "別府市石垣東１丁目",
-   "rent_min": 13.5,
-   "rent_max": 13.5,
-   "area_m2": 75.15,
-   "floor": 2,
-   "walk": 18,
-   "kind": "アパート",
-   "dist_m": 757,
-   "lat": 33.289448,
-   "lon": 131.498489,
    "sources": [
     "LIXIL"
    ],
@@ -249,8 +229,8 @@
    "id": "gh:別府市馬場|ロイヤル・フィオーレＢ",
    "name": "ロイヤル・フィオーレＢ",
    "address": "別府市馬場",
-   "rent_min": 6.15,
-   "rent_max": 6.15,
+   "rent_min": 5.55,
+   "rent_max": 5.55,
    "area_m2": 66.77,
    "floor": 2,
    "walk": 5,
@@ -269,8 +249,8 @@
    "id": "gh:別府市馬場|ロイヤル・フィオーレＡ",
    "name": "ロイヤル・フィオーレＡ",
    "address": "別府市馬場",
-   "rent_min": 6.15,
-   "rent_max": 6.15,
+   "rent_min": 5.55,
+   "rent_max": 5.55,
    "area_m2": 66.77,
    "floor": 2,
    "walk": 2,
@@ -383,26 +363,6 @@
    ],
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-10",
-   "is_new": false
-  },
-  {
-   "id": "gh:別府市若草町|Ｌａ　ｒｉｖｉｅｒｅ",
-   "name": "Ｌａ　ｒｉｖｉｅｒｅ",
-   "address": "別府市若草町",
-   "rent_min": 7.1,
-   "rent_max": 7.1,
-   "area_m2": 61.0,
-   "floor": 2,
-   "walk": 16,
-   "kind": "マンション",
-   "dist_m": 666,
-   "lat": 33.290394,
-   "lon": 131.502533,
-   "sources": [
-    "LIXIL"
-   ],
-   "url": "https://www.family-h.jp/rent/city/44202/",
-   "first_seen": "2026-11-03",
    "is_new": false
   },
   {
