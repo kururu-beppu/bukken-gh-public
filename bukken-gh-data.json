@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "center": [
   33.2845594,
   131.5041603
@@ -118,26 +118,6 @@
    "dist_m": 3464,
    "lat": 33.314098,
    "lon": 131.49231,
-   "sources": [
-    "LIXIL"
-   ],
-   "url": "https://www.family-h.jp/rent/city/44202/",
-   "first_seen": "2026-09-10",
-   "is_new": false
-  },
-  {
-   "id": "gh:別府市田の湯町|シャーメゾン青山通り　積水",
-   "name": "シャーメゾン青山通り　積水",
-   "address": "別府市田の湯町",
-   "rent_min": 16.0,
-   "rent_max": 16.0,
-   "area_m2": 70.33,
-   "floor": 2,
-   "walk": 4,
-   "kind": "アパート",
-   "dist_m": 875,
-   "lat": 33.278294,
-   "lon": 131.498474,
    "sources": [
     "LIXIL"
    ],
