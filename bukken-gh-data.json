@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17",
+ "generated": "2026-11-18",
  "center": [
   33.2845594,
   131.5041603
@@ -344,6 +344,26 @@
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-09-10",
    "is_new": false
+  },
+  {
+   "id": "gh:別府市内竈|アプローズ",
+   "name": "アプローズ",
+   "address": "別府市内竈",
+   "rent_min": 6.45,
+   "rent_max": 6.45,
+   "area_m2": 60.5,
+   "floor": 2,
+   "walk": 9,
+   "kind": "アパート",
+   "dist_m": 5955,
+   "lat": 33.334042,
+   "lon": 131.479645,
+   "sources": [
+    "LIXIL"
+   ],
+   "url": "https://www.family-h.jp/rent/city/44202/",
+   "first_seen": "2026-11-18",
+   "is_new": true
   },
   {
    "id": "gh:別府市石垣東５丁目|アネックス薫Ⅱ",
