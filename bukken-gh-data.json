@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23",
+ "generated": "2026-11-24",
  "center": [
   33.2845594,
   131.5041603
@@ -243,26 +243,6 @@
    ],
    "url": "https://www.family-h.jp/rent/city/44202/",
    "first_seen": "2026-10-02",
-   "is_new": false
-  },
-  {
-   "id": "gh:別府市上野口町|コーポはざま",
-   "name": "コーポはざま",
-   "address": "別府市上野口町",
-   "rent_min": 5.0,
-   "rent_max": 5.0,
-   "area_m2": 66.0,
-   "floor": 1,
-   "walk": 21,
-   "kind": "アパート",
-   "dist_m": 1236,
-   "lat": 33.287029,
-   "lon": 131.491196,
-   "sources": [
-    "LIXIL"
-   ],
-   "url": "https://www.family-h.jp/rent/city/44202/",
-   "first_seen": "2026-09-10",
    "is_new": false
   },
   {
